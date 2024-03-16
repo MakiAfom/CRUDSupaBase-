@@ -29,7 +29,7 @@ Generate Supabase types from Database:
 •	 npm run update-types
 
 Seeding & Querying
-Running Seed: ![bg](https://github.com/MakiAfom/CRUDSupaBase-/assets/110693825/a87523f3-733b-41da-bd9a-c9128b7daf6e)
+Running Seed: 
 
 •	npx prisma db seed
 Querying via SupaBase client (data API): 
