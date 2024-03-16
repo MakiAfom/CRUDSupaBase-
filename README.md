@@ -37,10 +37,4 @@ Querying via SupaBase client (data API):
 Querying via Prisma client: 
 •	npx ts-node src/prisma.ts
 
-Helpful Commands
-Stop Supabase and backup current state: 
-•	npx supabase stop --backup or npm run db-stop
-Kill all running supabase docker container 
-if you've deleted the project that started them: 
-docker stop $(docker ps -aq --filter "name=supabase") 
-&& docker rm $(docker ps -aq --filter "name=supabase")
+
